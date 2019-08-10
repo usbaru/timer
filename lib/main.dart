@@ -40,8 +40,14 @@ class TimerAppState extends State<TimerApp> {
     return MaterialApp(
       title: 'Welcome to Flutter',
       home: Scaffold(
+        backgroundColor: const Color(0xffE5E5E5),
         appBar: AppBar(
-          title: Text('Timer'),
+          title: Text('Time Go',
+            style: TextStyle(
+                color: Color(0xff14213D)
+            ),
+          ),
+          backgroundColor: Color(0xffFCA311),
         ),
         body: Center(
           child: Column(
